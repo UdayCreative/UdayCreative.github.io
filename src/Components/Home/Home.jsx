@@ -132,7 +132,7 @@ const Home = ({ scrollRef }) => {
 
       {/* project section from here => */}
       <div id="projects" className={styles.projects}>
-        <h1 style={{ color: `${newTheme.title}` }} className={styles.heading}>
+        <h1 style={{ color: `${newTheme.title}`,}} className={styles.heading}>
           Projects
         </h1>
         <div className={styles.borderBottom} />
@@ -143,7 +143,7 @@ const Home = ({ scrollRef }) => {
         </div>
         <Button
           text={
-            projects.length !== projectArray.length ? "Show More" : "Show Less"
+            projects.length !== projectArray.length ? "Show Less" : "Show More"
           }
           handleButton={handleShowMoreBtn}
         />
