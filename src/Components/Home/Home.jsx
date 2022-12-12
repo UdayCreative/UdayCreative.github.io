@@ -20,6 +20,7 @@ const Home = ({ scrollRef }) => {
   const { newTheme } = React.useContext(ThemeContext);
   const [offset, setOffset] = useState(0);
   const [location, setLocation] = useState(0);
+  
   useEffect(() => {
     AOS.init();
   });
@@ -40,6 +41,7 @@ const Home = ({ scrollRef }) => {
   const handleButton = () => {};
 
   // console.log(offset);
+  
   const handleShowMoreBtn = () => {
     if (projects.length === projectArray.length) {
       setProjectArray(projects.slice(0, 4));
@@ -141,12 +143,12 @@ const Home = ({ scrollRef }) => {
             <Card key={index} {...item} />
           ))}
         </div>
-        <Button
+        {/* <Button
           text={
             projects.length !== projectArray.length ? "Show Less" : "Show More"
           }
           handleButton={handleShowMoreBtn}
-        />
+        /> */}
       </div>
 
       <div
