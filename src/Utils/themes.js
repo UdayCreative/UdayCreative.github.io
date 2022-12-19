@@ -10,7 +10,7 @@ export const theme = {
 		sideIcons: '#FFFFFF',
 		menuBackground: '#093047',
 		card: '#112240',
-		linkHover: 'linear-gradient(120deg, #182744, #132c26',
+		// linkHover: 'linear-gradient(120deg, #182744, #132c26',
 	},
 	light: {
 		background: '#FFFFFF',
@@ -23,6 +23,6 @@ export const theme = {
 		sideIcons: '#766161',
 		menuBackground: '#aaeff8',
 		card: '#8BD8CE',
-		linkHover: 'linear-gradient(135deg, #ccc0f5, #6fd8c1)',
+		// linkHover: 'linear-gradient(135deg, #ccc0f5, #6fd8c1)',
 	},
 };

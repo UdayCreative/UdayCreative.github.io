@@ -60,7 +60,7 @@ const Card = (props) => {
 								key={index}
 								style={{
 									marginLeft: '10px',
-									color: `${newTheme.para}`,
+									color:'green'
 								}}
 							>
 								{technology}
@@ -94,7 +94,7 @@ const Card = (props) => {
 									key={index}
 									style={{
 										marginLeft: '10px',
-										color: `${newTheme.para}`,
+										color:'green'
 									}}
 								> 
 									{technology}
@@ -114,7 +114,7 @@ const Card = (props) => {
 								style={{
 									color: `${newTheme.title}`,
 								}}
-								className={styles.actionBtns}
+								// className={styles.actionBtns}
 							>
 								<a
 									href={gitHub}

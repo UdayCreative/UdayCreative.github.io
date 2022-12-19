@@ -14,14 +14,14 @@ const GitHub = () => {
           <img style={{padding:"20px"}}
             src="https://github-readme-streak-stats.herokuapp.com/?user=UdayCreative&theme=react&hide_border=false&layout=compact"
             alt="GitHub stat"
-            width="58%"
+            width="50%"
             />
           <img style={{padding:"20px"}}
             src="https://github-readme-stats.vercel.app/api?username=UdayCreative&show_icons=true&&countprivate=true&theme=react&hide_title=true"
             alt="GitHub stats"
-            width="58%"
+            width="50%"
           />
-          <img         style={{ margin: "auto", width:"58%", padding:"20px" }}
+          <img     style={{ margin: "auto", width:"50%", padding:"20px" }}
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=UdayCreative&theme=react&hide_border=false&include_all_commits=true&layout=compact"
             alt="GitHub stats"
             
@@ -29,11 +29,11 @@ const GitHub = () => {
         </div>
       </div>
       <div
-        w={["85%", "85%", "65%"]}
-        className="github_Calender"
-        style={{
-            color: `${newTheme.title}`,
-        }}
+        // w={["85%", "85%", "65%"]}
+        // className="github_Calender"
+        // style={{
+        //     color: `${newTheme.title}`,
+        // }}
       >
         <h1 style={{color:newTheme.title}}>GitHub Calender</h1>
         <GitHubCalendar 

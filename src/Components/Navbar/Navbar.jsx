@@ -50,7 +50,7 @@ const Navbar = () => {
 					<a href='#techStacks'>Skills</a>
 					<a href='#projects'>Projects</a>
 					<a href='#contact'>Contact</a>
-					<a href='https://drive.google.com/file/d/10nmSo-DqHntp3-ZXxe_kDvEgMedQMDqE/view?usp=sharing'>Resume</a>
+					<a href='https://drive.google.com/file/d/1urcq0un2LXV7h_87PZC0CdFvLcK7pEYr/view'>Resume</a>
 				</div>
 				<button
 					aria-label={mode === 'dark' ? 'Light Mode' : 'Dark Mode'}

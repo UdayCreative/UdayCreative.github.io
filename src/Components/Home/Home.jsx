@@ -6,6 +6,7 @@ import TechStacks from "../TechStacks/TechStacks";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import img1 from "../../assets/Uday-Photo.jpeg"
+import pdf from "../../assets/Uday Patil-Resume.pdf"
 import { Button } from "../Button/Button";
 import About from "../About/About";
 import { projects } from "../../Utils/Projects";
@@ -77,15 +78,15 @@ const Home = ({ scrollRef }) => {
           </h1>
           <h1>I am a
           <TypeAnimation
-                        style={{ color: "#8993b1" }}
+                        style={{ color: "red" }}
                         sequence={[" Full-Stack Web Developer.", 500, ""]}
-                        speed={40} // Must be in range between 1 and 99!
+                        speed={40} 
                         wrapper="span"
                         repeat={Infinity}
                       /></h1>
           <div className={styles.btn}>
-            <a
-              href="https://drive.google.com/file/d/10nmSo-DqHntp3-ZXxe_kDvEgMedQMDqE/view?usp=sharing"
+            <a 
+              href={pdf} download
               target="_blank"
               rel="noreferrer"
             >
