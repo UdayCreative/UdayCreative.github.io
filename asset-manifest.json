@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d716f9a.css",
-    "main.js": "/static/js/main.0851b33a.js",
+    "main.css": "/static/css/main.ca4b082e.css",
+    "main.js": "/static/js/main.e575fed8.js",
     "static/js/988.f9d92b26.chunk.js": "/static/js/988.f9d92b26.chunk.js",
     "static/media/Uday Patil-Resume.pdf": "/static/media/Uday Patil-Resume.fddb28945e3b0d50400f.pdf",
     "static/media/Uday-Photo.jpeg": "/static/media/Uday-Photo.91355e5f30ff6fcfe8aa.jpeg",
     "index.html": "/index.html",
-    "main.4d716f9a.css.map": "/static/css/main.4d716f9a.css.map",
-    "main.0851b33a.js.map": "/static/js/main.0851b33a.js.map",
+    "main.ca4b082e.css.map": "/static/css/main.ca4b082e.css.map",
+    "main.e575fed8.js.map": "/static/js/main.e575fed8.js.map",
     "988.f9d92b26.chunk.js.map": "/static/js/988.f9d92b26.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d716f9a.css",
-    "static/js/main.0851b33a.js"
+    "static/css/main.ca4b082e.css",
+    "static/js/main.e575fed8.js"
   ]
 }
