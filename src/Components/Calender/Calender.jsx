@@ -9,19 +9,19 @@ const GitHub = () => {
   return (
     <div className="github">
       <div>
-        <h1 style={{color:newTheme.title}}>Github Stats</h1>
+        <h1 style={{marginTop:"60px", color:newTheme.title}}>Github Stats</h1>
         <div>
-          <img style={{padding:"20px"}}
+          <img style={{marginTop:"20px",padding:"20px"}}
             src="https://github-readme-streak-stats.herokuapp.com/?user=UdayCreative&theme=react&hide_border=false&layout=compact"
             alt="GitHub stat"
             width="50%"
             />
-          <img style={{padding:"20px"}}
+          <img style={{marginTop:"20px",padding:"20px"}}
             src="https://github-readme-stats.vercel.app/api?username=UdayCreative&show_icons=true&&countprivate=true&theme=react&hide_title=true"
             alt="GitHub stats"
             width="50%"
           />
-          <img     style={{ margin: "auto", width:"50%", padding:"20px" }}
+          <img     style={{ marginTop:"20px", width:"50%", padding:"20px" }}
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=UdayCreative&theme=react&hide_border=false&include_all_commits=true&layout=compact"
             alt="GitHub stats"
             
@@ -35,7 +35,7 @@ const GitHub = () => {
         //     color: `${newTheme.title}`,
         // }}
       >
-        <h1 style={{color:newTheme.title}}>GitHub Calender</h1>
+        <h1 style={{marginTop:"60px",color:newTheme.title}}>GitHub Calender</h1>
         <GitHubCalendar 
           style={{ margin: "auto", border:"1px solid", padding:"20px", borderRadius:"5px" }}
           username="UdayCreative"

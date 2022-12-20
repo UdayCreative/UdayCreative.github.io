@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Home.module.css";
 import Card from "../Card/Card";
-import SideIcons from "../SideIcons/SideIcons";
+// import SideIcons from "../SideIcons/SideIcons";
 import TechStacks from "../TechStacks/TechStacks";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -55,28 +55,28 @@ const Home = ({ scrollRef }) => {
 
   return (
     <div ref={scrollRef}>
-      <SideIcons />
+      {/* <SideIcons /> */}
       <div
         id="home"
         className={styles.profile}
-        style={{ backgroundColor: `${newTheme.imgBackground}` }}
+        // style={{ backgroundColor: `${newTheme.imgBackground}` }}
       >
         <div
-          data-aos="fade-zoom-out"
+          // data-aos="fade-zoom-out"
           className={styles.intro}
-          style={{
-            color: `${newTheme.para}`,
-            transform: `translateX(-${offset * 2.5}px)`,
-            opacity: `${offset > 300 ? "0" : offset > 160 ? ".5" : "1"}`,
-          }}
+          // style={{
+          //   color: `${newTheme.para}`,
+          //   // transform: `translateX(-${offset * 2.5}px)`,
+          //   // opacity: `${offset > 300 ? "0" : offset > 160 ? ".5" : "1"}`,
+          // }}
         >
-          <h1>
+          <h1 style={{ color: `${newTheme.title}` }}>
             <span>Hi👋, I'm </span>
             <div className={styles.name} style={{ color: `${newTheme.title}` }}>
               Uday Patil.
             </div>
           </h1>
-          <h1>I am a
+          <h1 style={{ color: `${newTheme.title}` }}>I am a
           <TypeAnimation
                         style={{ color: "red" }}
                         sequence={[" Full-Stack Web Developer.", 500, ""]}
@@ -93,7 +93,7 @@ const Home = ({ scrollRef }) => {
               <Button
                 text={
                   <span className={styles.resumeBtn}>
-                    <span>Resume</span> <i className="fas fa-file-download"></i>
+                    <span style={{fontSize:"25px"}}>Resume</span> 
                   </span>
                 }
                 handleButton={handleButton}
@@ -103,11 +103,11 @@ const Home = ({ scrollRef }) => {
         </div>
 
         <div
-          style={{
-            transform: `translateX(${offset * 2.5}px)`,
-            opacity: `${offset > 300 ? "0" : offset > 160 ? ".5" : "1"}`,
+          // style={{
+          //   // transform: `translateX(${offset * 2.5}px)`,
+          //   // opacity: `${offset > 300 ? "0" : offset > 160 ? ".5" : "1"}`,
            
-          }}
+          // }}
           className={styles.profileImage}
         >
           <img
@@ -120,9 +120,9 @@ const Home = ({ scrollRef }) => {
       <div
         id="about"
         style={{
-          background: `${newTheme.highlightBackground}`,
+          // background: `${newTheme.highlightBackground}`,
         }}
-        className={styles.experience}
+        // className={styles.experience}
       >
         <About />
       </div>
@@ -134,7 +134,9 @@ const Home = ({ scrollRef }) => {
       </div>
 
       {/* project section from here => */}
-      <div id="projects" className={styles.projects}>
+      <div id="projects" 
+      className={styles.projects}
+      >
         <h1 style={{ color: `${newTheme.title}`,}} className={styles.heading}>
           Projects
         </h1>
@@ -154,7 +156,7 @@ const Home = ({ scrollRef }) => {
 
       <div
         style={{
-          background: `${newTheme.highlightBackground}`,
+          // background: `${newTheme.highlightBackground}`,
         }}
       >
         <Contact />

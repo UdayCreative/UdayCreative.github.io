@@ -12,18 +12,18 @@ const Contact = () => {
       <div className={styles.container}>
         <h1 style={{ color: `${newTheme.title}` }}>Contact Me</h1>
         <p style={{ color: `${newTheme.para}` }} className={styles.paragraph}>
-          I'm actively looking for any new opportunities, in Full-Stack Web
-          Development.
+          I'm actively looking for any new opportunities, in Full-Stack Web Development.
         </p>
     
           <p style={{ color: `#00a0a0`, fontSize:`20px` }}>{'\u00A0'}
-            Email: udaypatil544@gmail.com
+            <b style={{color:'red'}}>Email:</b> udaypatil544@gmail.com
           </p>
 
-		  <p style={{ color: `#00a0a0`,fontSize:`20px`}}>Mobile: +91-<span style={{ color: `#00a0a0`, fontSize:`20px`, textDecoration: `none` }} >9527434556</span>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}
+		  <p style={{ color: `#00a0a0`,fontSize:`20px`}}>
+        <b style={{color:"red"}}>Mobile:</b> +91-<span style={{ color: `#00a0a0`, fontSize:`20px`, textDecoration: `none` }} >9527434556</span>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}
           </p>
 		  <p style={{ color: `#00a0a0`,fontSize:`20px` }}>
-            Location: Maharashtra, India
+            <b style={{color:"red"}}>Location:</b> Maharashtra, India
           </p>
 		  
         <div
@@ -66,10 +66,6 @@ const Contact = () => {
           </a>
         </div>
       </div>
-      {/* <div style={{ background: `${newTheme.line}` }} className={styles.line} />
-      <div style={{ color: `${newTheme.para}` }} className={styles.copyright}>
-        Designed and build by Uday, 2022 All rights reserved.
-      </div> */}
     </footer>
   );
 };

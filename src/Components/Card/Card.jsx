@@ -20,14 +20,16 @@ const Card = (props) => {
 	};
 	return (
 		<div
-			data-aos='fade-right'
-			data-aos-offset='300'
-			data-aos-easing='ease-in-sine'
-			data-aos-duration='700'
+			// data-aos='fade-right'
+			// data-aos-offset='300'
+			// data-aos-easing='ease-in-sine'
+			// data-aos-duration='700'
 			className={styles.card}
 			style={{
-				boxShadow: `3px 3px 5px ${newTheme.line}`,
-				backgroundColor: `${newTheme.highlightBackground}`,
+				border: `1px solid  ${newTheme.line}`,
+				padding:"10px",
+				// boxShadow: `3px 3px 5px ${newTheme.line}`,
+				// backgroundColor: `${newTheme.highlightBackground}`,
 			}}
 		>
 			<div className={styles.image}>
@@ -38,11 +40,11 @@ const Card = (props) => {
 			<div className={styles.card__Container}>
 				<div
 					className={styles.titleContainer}
-					style={
-						width <= 1000
-							? { background: `${newTheme.card}` }
-							: { background: 'none' }
-					}
+					// style={
+					// 	width <= 1000
+					// 		? { background: `${newTheme.card}` }
+					// 		: { background: 'none' }
+					// }
 				>
 					<h2 style={{ color: `${newTheme.title}` }}>{title}</h2>
 					{width <= 840 && (
@@ -114,7 +116,7 @@ const Card = (props) => {
 								style={{
 									color: `${newTheme.title}`,
 								}}
-								// className={styles.actionBtns}
+								className={styles.actionBtns}
 							>
 								<a
 									href={gitHub}

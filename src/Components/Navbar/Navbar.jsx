@@ -36,8 +36,8 @@ const Navbar = () => {
 			ref={navRef}
 			className={styles.navContainer}
 			style={{
-				background: `${newTheme.background}`,
-				boxShadow: `3px 3px 10px ${newTheme.line}`,
+				// background: `${newTheme.background}`,
+				// boxShadow: `3px 3px 10px ${newTheme.line}`,
 			}}
 		>
 			<div className={styles.navbar}>
