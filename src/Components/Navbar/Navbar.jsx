@@ -45,12 +45,14 @@ const Navbar = () => {
 					style={{ color: `${newTheme.title}` }}
 					className={styles.links}
 				>
-					<a  href='#home'>Home</a>
-					<a  href='#about'>About</a>
+					<a href='#home'>Home</a>
+					<a href='#about'>About</a>
 					<a href='#techStacks'>Skills</a>
 					<a href='#projects'>Projects</a>
 					<a href='#contact'>Contact</a>
-					<a href='https://drive.google.com/file/d/1urcq0un2LXV7h_87PZC0CdFvLcK7pEYr/view'>Resume</a>
+					<a href='https://onedrive.live.com/?authkey=%21AFB%5FW32RzrlarpM&cid=8AD16FDD74D51843&id=8AD16FDD74D51843%21139&parId=8AD16FDD74D51843%21138&o=OneUp'>
+						Resume
+					</a>
 				</div>
 				<button
 					aria-label={mode === 'dark' ? 'Light Mode' : 'Dark Mode'}
