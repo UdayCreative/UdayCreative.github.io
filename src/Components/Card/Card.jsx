@@ -27,7 +27,7 @@ const Card = (props) => {
 			className={styles.card}
 			style={{
 				border: `1px solid  ${newTheme.line}`,
-				padding:"10px",
+				padding: "10px",
 				// boxShadow: `3px 3px 5px ${newTheme.line}`,
 				// backgroundColor: `${newTheme.highlightBackground}`,
 			}}
@@ -40,11 +40,11 @@ const Card = (props) => {
 			<div className={styles.card__Container}>
 				<div
 					className={styles.titleContainer}
-					// style={
-					// 	width <= 1000
-					// 		? { background: `${newTheme.card}` }
-					// 		: { background: 'none' }
-					// }
+				// style={
+				// 	width <= 1000
+				// 		? { background: `${newTheme.card}` }
+				// 		: { background: 'none' }
+				// }
 				>
 					<h2 style={{ color: `${newTheme.title}` }}>{title}</h2>
 					{width <= 840 && (
@@ -55,14 +55,14 @@ const Card = (props) => {
 						/>
 					)}
 					<p style={{ color: `${newTheme.para}` }}>{des}</p>
-					<div className={styles.popupTech} style={{ color: `${newTheme.title}`}}>
+					<div className={styles.popupTech} style={{ color: `${newTheme.title}` }}>
 						Tech-Stack:
 						{technologies.map((technology, index) => (
 							<span
 								key={index}
 								style={{
 									marginLeft: '10px',
-									color:'green'
+									color: 'green'
 								}}
 							>
 								{technology}
@@ -89,16 +89,16 @@ const Card = (props) => {
 						</div>
 						<h2 style={{ color: `${newTheme.title}` }}>{title}</h2>
 						<p style={{ color: `${newTheme.para}` }}>{des}</p>
-						<div className={styles.popupTech} style={{color: `${newTheme.title}`}}>
+						<div className={styles.popupTech} style={{ color: `${newTheme.title}` }}>
 							Tech-Stack:
 							{technologies.map((technology, index) => (
 								<div
 									key={index}
 									style={{
 										marginLeft: '10px',
-										color:'green'
+										color: 'green'
 									}}
-								> 
+								>
 									{technology}
 									{index !== technologies.length - 1 ? ',' : '.'}
 								</div>

@@ -8,6 +8,7 @@
 	transition: all 0.3s ease-in-out;
 	/* background: linear-gradient(-135deg, #7f1adf 0%, #e7a41f 100%); */
 }
+
 .buttonComponent span {
 	font-size: 18px;
 	display: inline-block;
@@ -16,6 +17,7 @@
 	font: 17px/32px 'Roboto', sans-serif;
 	color: black;
 }
+
 /* .buttonComponent:hover {
 	border-radius: 36px;
 	background: linear-gradient(-135deg, #982dfb 0%, #f1ae26 100%);

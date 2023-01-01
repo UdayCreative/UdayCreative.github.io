@@ -7,10 +7,10 @@ const TechStacks = () => {
 	return (
 		<div
 			className={styles.main}
-			// data-aos='fade-right'
-			// data-aos-offset='200'
-			// data-aos-easing='ease-in-sine'
-			// data-aos-duration='800'
+		// data-aos='fade-right'
+		// data-aos-offset='200'
+		// data-aos-easing='ease-in-sine'
+		// data-aos-duration='800'
 		>
 			<h1
 				style={{ color: `${newTheme.title}` }}
@@ -112,7 +112,7 @@ const TechStacks = () => {
 				>
 					<i className='devicon-mongodb-plain colored' />
 					<span>MongoDB</span>
-				</div>			
+				</div>
 				{/* <br />	 */}
 				<div
 					style={{

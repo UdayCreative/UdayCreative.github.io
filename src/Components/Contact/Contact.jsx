@@ -14,18 +14,18 @@ const Contact = () => {
         <p style={{ color: `${newTheme.para}` }} className={styles.paragraph}>
           I'm actively looking for any new opportunities, in Full-Stack Web Development.
         </p>
-    
-          <p style={{ color: `#00a0a0`, fontSize:`20px` }}>{'\u00A0'}
-            <b style={{color:'red'}}>Email:</b> udaypatil544@gmail.com
-          </p>
 
-		  <p style={{ color: `#00a0a0`,fontSize:`20px`}}>
-        <b style={{color:"red"}}>Mobile:</b> +91-<span style={{ color: `#00a0a0`, fontSize:`20px`, textDecoration: `none` }} >9527434556</span>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}
-          </p>
-		  <p style={{ color: `#00a0a0`,fontSize:`20px` }}>
-            <b style={{color:"red"}}>Location:</b> Maharashtra, India
-          </p>
-		  
+        <p style={{ color: `#00a0a0`, fontSize: `20px` }}>{'\u00A0'}
+          <b style={{ color: 'red' }}>Email:</b> udaypatil544@gmail.com
+        </p>
+
+        <p style={{ color: `#00a0a0`, fontSize: `20px` }}>
+          <b style={{ color: "red" }}>Mobile:</b> +91-<span style={{ color: `#00a0a0`, fontSize: `20px`, textDecoration: `none` }} >9527434556</span>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}
+        </p>
+        <p style={{ color: `#00a0a0`, fontSize: `20px` }}>
+          <b style={{ color: "red" }}>Location:</b> Maharashtra, India
+        </p>
+
         <div
           style={{ color: `${newTheme.title}` }}
           className={styles.contactOptions}
@@ -46,7 +46,7 @@ const Contact = () => {
           >
             <i className="far fa-envelope"></i>
           </a>
-         
+
           <a
             href="https://github.com/UdayCreative"
             aria-label="GitHub"

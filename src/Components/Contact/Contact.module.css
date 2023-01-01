@@ -3,16 +3,19 @@
 	padding: 8vh 0 5vh;
 	margin-top: 5vh;
 }
+
 .container {
 	width: fit-content;
 	margin: 70px auto;
 
 }
+
 .paragraph {
 	width: 60vw;
 	font-size: 1.2em;
 	margin: auto;
 }
+
 .contactOptions {
 	text-align: center;
 	display: flex;
@@ -20,6 +23,7 @@
 	align-items: center;
 	padding: 2rem 0;
 }
+
 .contactOptions i {
 	font-size: 40px;
 	margin: 20px 40px;
@@ -59,21 +63,25 @@
 	height: 1px;
 	margin: 0 auto 5vh;
 }
+
 .copyright {
 	width: fit-content;
 	margin: auto;
 	font-size: 1rem;
 	opacity: 0.7;
 }
+
 @media screen and (max-width: 800px) {
 	.paragraph {
 		width: 60vw;
 		font-size: 1.2em;
 	}
+
 	.contactOptions i {
 		/* font-size: 30px; */
 		margin: 20px 5vw;
 	}
+
 	.contactOptions {
 		flex-wrap: wrap;
 	}
@@ -91,6 +99,7 @@
 		/* color: blanchedalmond; */
 		margin: 20px 5vw;
 	}
+
 	.copyright {
 		width: 70vw;
 		text-align: center;
