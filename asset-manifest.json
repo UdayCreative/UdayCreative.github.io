@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca4b082e.css",
-    "main.js": "/static/js/main.e575fed8.js",
+    "main.css": "/static/css/main.7a9af037.css",
+    "main.js": "/static/js/main.db291297.js",
     "static/js/988.f9d92b26.chunk.js": "/static/js/988.f9d92b26.chunk.js",
-    "static/media/Uday Patil-Resume.pdf": "/static/media/Uday Patil-Resume.fddb28945e3b0d50400f.pdf",
+    "static/media/Uday Patil-Resume.pdf": "/static/media/Uday Patil-Resume.4b19fe65745d51961131.pdf",
     "static/media/Uday-Photo.jpeg": "/static/media/Uday-Photo.91355e5f30ff6fcfe8aa.jpeg",
     "index.html": "/index.html",
-    "main.ca4b082e.css.map": "/static/css/main.ca4b082e.css.map",
-    "main.e575fed8.js.map": "/static/js/main.e575fed8.js.map",
+    "main.7a9af037.css.map": "/static/css/main.7a9af037.css.map",
+    "main.db291297.js.map": "/static/js/main.db291297.js.map",
     "988.f9d92b26.chunk.js.map": "/static/js/988.f9d92b26.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca4b082e.css",
-    "static/js/main.e575fed8.js"
+    "static/css/main.7a9af037.css",
+    "static/js/main.db291297.js"
   ]
 }
