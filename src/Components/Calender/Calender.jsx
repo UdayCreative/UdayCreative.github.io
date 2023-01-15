@@ -31,9 +31,9 @@ const GitHub = () => {
       <div
       // w={["85%", "85%", "65%"]}
       // className="github_Calender"
-      // style={{
-      //     color: `${newTheme.title}`,
-      // }}
+      style={{
+          color: `${newTheme.title}`,
+      }}
       >
         <h1 style={{ marginTop: "60px", color: newTheme.title }}>GitHub Calender</h1>
         <GitHubCalendar

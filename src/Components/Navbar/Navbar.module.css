@@ -1,11 +1,12 @@
 .navContainer {
   width: 100%;
-  padding: 30px;
+  padding: 20px;
   position: fixed;
   z-index: 20;
   top: 0;
   transition: top 0.6s;
-  background-color: rgb(212, 242, 242);
+  background-color: rgb(4, 144, 251);
+  border-bottom: 3px solid;
 }
 
 /* .logo {
@@ -49,18 +50,17 @@
 }
 
 .links a {
-  margin: 0 15px;
   transition: 0.4s;
   display: inline-block;
-  /* color: #000; */
+  color: #000;
   text-decoration: none;
   margin: 0 50px;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 550;
 }
 
 .links a:hover {
-  color: rgb(255, 81, 0);
+  color: rgb(252, 249, 247);
 }
 
 .links a::after {
@@ -69,8 +69,8 @@
   width: 0;
   margin-top: 5px;
   height: 2px;
-  background: rgb(255, 81, 0);
-  transition: width 0.4s;
+  background: rgb(252, 249, 247);
+  transition: width 1.5s;
 }
 
 .links a:hover::after {

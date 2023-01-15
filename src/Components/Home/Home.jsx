@@ -93,7 +93,7 @@ const Home = ({ scrollRef }) => {
               <Button
                 text={
                   <span className={styles.resumeBtn}>
-                    <span style={{fontSize:"25px"}}>Resume</span> 
+                    <span style={{fontSize:"23px"}}>RESUME</span> 
                   </span>
                 }
                 handleButton={handleButton}

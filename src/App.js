@@ -36,25 +36,25 @@ function App() {
             className="links"
           >
             <a onClick={handleMenu} href="#home">
-              Home
+              HOME
             </a>
             <a onClick={handleMenu} href="#about">
-              About
+              ABOUT
             </a>
             {/* <a onClick={handleMenu} href='#experience'>
 							Experience
 						</a> */}
             <a onClick={handleMenu} href="#techStacks">
-              Skills
+              SKILLS
             </a>
             <a onClick={handleMenu} href="#projects">
-              Projects
+              PROJECTS
             </a>
             <a onClick={handleMenu} href="#contact">
-              Contact
+              CONTACT
             </a>
-            <a href="https://drive.google.com/file/d/10nmSo-DqHntp3-ZXxe_kDvEgMedQMDqE/view">
-              Resume
+            <a href="https://onedrive.live.com/?authkey=%21AFB%5FW32RzrlarpM&cid=8AD16FDD74D51843&id=8AD16FDD74D51843%21139&parId=8AD16FDD74D51843%21138&o=OneUp">
+              RESUME
             </a>
           </div>
           <Navbar />

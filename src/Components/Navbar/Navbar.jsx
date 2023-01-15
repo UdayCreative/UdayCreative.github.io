@@ -45,13 +45,13 @@ const Navbar = () => {
 					style={{ color: `${newTheme.title}` }}
 					className={styles.links}
 				>
-					<a href='#home'>Home</a>
-					<a href='#about'>About</a>
-					<a href='#techStacks'>Skills</a>
-					<a href='#projects'>Projects</a>
-					<a href='#contact'>Contact</a>
+					<a href='#home'>HOME</a>
+					<a href='#about'>ABOUT</a>
+					<a href='#techStacks'>SKILLS</a>
+					<a href='#projects'>PROJECTS</a>
+					<a href='#contact'>CONTACT</a>
 					<a href='https://onedrive.live.com/?authkey=%21AFB%5FW32RzrlarpM&cid=8AD16FDD74D51843&id=8AD16FDD74D51843%21139&parId=8AD16FDD74D51843%21138&o=OneUp'>
-						Resume
+						RESUME
 					</a>
 				</div>
 				<button
