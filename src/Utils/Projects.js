@@ -1,6 +1,6 @@
 export const projects = [
   {
-    img: "https://www.myticketstoindia.com/wp-content/uploads/2022/01/Travelocity.webp",
+    img: "https://www.travelocity.com/inspire/wp-content/uploads/2018/11/Screen-Shot-2018-11-07-at-2.30.17-PM-1024x709.png",
     title: "Travelocity-Clone",
     des: "Travelocity Clone website. Which is an online travel agency owned by Expedia Group. We added functionality like Signup, Login, Search Hotels & Cars, add to cart, and Payment Gateway. We used React, Redux, JavaScript, CSS, and Material UI to build this website.",
     demo: "",
