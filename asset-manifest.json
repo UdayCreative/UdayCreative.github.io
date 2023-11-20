@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.ebc330e9.css",
-    "main.js": "/static/js/main.da73afae.js",
+    "main.js": "/static/js/main.d333eb29.js",
     "static/js/988.c5291e13.chunk.js": "/static/js/988.c5291e13.chunk.js",
-    "static/media/Uday Patil-Resume.pdf": "/static/media/Uday Patil-Resume.4b19fe65745d51961131.pdf",
+    "static/media/Uday Patil-Resume.pdf": "/static/media/Uday Patil-Resume.f07095e321f8b3d76518.pdf",
     "static/media/Uday-Photo.jpeg": "/static/media/Uday-Photo.91355e5f30ff6fcfe8aa.jpeg",
     "index.html": "/index.html",
     "main.ebc330e9.css.map": "/static/css/main.ebc330e9.css.map",
-    "main.da73afae.js.map": "/static/js/main.da73afae.js.map",
+    "main.d333eb29.js.map": "/static/js/main.d333eb29.js.map",
     "988.c5291e13.chunk.js.map": "/static/js/988.c5291e13.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ebc330e9.css",
-    "static/js/main.da73afae.js"
+    "static/js/main.d333eb29.js"
   ]
 }
