@@ -10,30 +10,30 @@ const GitHub = () => {
     <div className="github">
       <div>
         <h1 style={{ marginTop: "60px", color: newTheme.title }}>Github Stats</h1>
-        <div style={{display:"flex", marginLeft:'80px'}}>
+        <div style={{ display: "flex", marginLeft: '80px' }}>
           <img style={{ marginTop: "20px", padding: "20px" }}
             src="https://github-readme-streak-stats.herokuapp.com/?user=UdayCreative&&theme=react&hide_border=false"
             alt="GitHub stat"
-            // width="35%"
+          // width="35%"
           />
           <img style={{ marginTop: "20px", padding: "20px" }}
             src="https://github-readme-stats.vercel.app/api?username=UdayCreative&show_icons=true&&countprivate=true&theme=react&hide_title=true"
             alt="GitHub stats"
-            // width="35%"
+          // width="35%"
           />
           <img style={{ marginTop: "20px", padding: "20px" }}
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=UdayCreative&theme=react&hide_border=false&include_all_commits=true&layout=compact"
             alt="GitHub stats"
-            // width="35%"
+          // width="35%"
           />
         </div>
       </div>
       <div
-      // w={["85%", "85%", "65%"]}
-      // className="github_Calender"
-      style={{
+        // w={["85%", "85%", "65%"]}
+        // className="github_Calender"
+        style={{
           color: `${newTheme.title}`,
-      }}
+        }}
       >
         <h1 style={{ marginTop: "60px", color: newTheme.title }}>GitHub Calender</h1>
         <GitHubCalendar

@@ -12,7 +12,7 @@ import About from "../About/About";
 import { projects } from "../../Utils/Projects";
 import Contact from "../Contact/Contact";
 import { ThemeContext } from "../../ContextProvider/ThemeContext";
-import { TypeAnimation} from 'react-type-animation'
+import { TypeAnimation } from 'react-type-animation'
 import GitHub from "../Calender/Calender";
 
 
@@ -21,7 +21,7 @@ const Home = ({ scrollRef }) => {
   const { newTheme } = React.useContext(ThemeContext);
   const [offset, setOffset] = useState(0);
   const [location, setLocation] = useState(0);
-  
+
   useEffect(() => {
     AOS.init();
   });
@@ -39,10 +39,10 @@ const Home = ({ scrollRef }) => {
     document.body.style.backgroundColor = newTheme.background;
   }, [newTheme]);
 
-  const handleButton = () => {};
+  const handleButton = () => { };
 
   // console.log(offset);
-  
+
   const handleShowMoreBtn = () => {
     if (projects.length === projectArray.length) {
       setProjectArray(projects.slice(0, 4));
@@ -59,16 +59,16 @@ const Home = ({ scrollRef }) => {
       <div
         id="home"
         className={styles.profile}
-        // style={{ backgroundColor: `${newTheme.imgBackground}` }}
+      // style={{ backgroundColor: `${newTheme.imgBackground}` }}
       >
         <div
           // data-aos="fade-zoom-out"
           className={styles.intro}
-          // style={{
-          //   color: `${newTheme.para}`,
-          //   // transform: `translateX(-${offset * 2.5}px)`,
-          //   // opacity: `${offset > 300 ? "0" : offset > 160 ? ".5" : "1"}`,
-          // }}
+        // style={{
+        //   color: `${newTheme.para}`,
+        //   // transform: `translateX(-${offset * 2.5}px)`,
+        //   // opacity: `${offset > 300 ? "0" : offset > 160 ? ".5" : "1"}`,
+        // }}
         >
           <h1 style={{ color: `${newTheme.title}` }}>
             <span>Hi👋, I'm </span>
@@ -77,15 +77,15 @@ const Home = ({ scrollRef }) => {
             </div>
           </h1>
           <h1 style={{ color: `${newTheme.title}` }}>I am a
-          <TypeAnimation
-                        style={{ color: "red" }}
-                        sequence={[" Full-Stack Web Developer.", 500, ""]}
-                        speed={40} 
-                        wrapper="span"
-                        repeat={Infinity}
-                      /></h1>
+            <TypeAnimation
+              style={{ color: "red" }}
+              sequence={[" Full-Stack Web Developer.", 500, ""]}
+              speed={40}
+              wrapper="span"
+              repeat={Infinity}
+            /></h1>
           <div className={styles.btn}>
-            <a 
+            <a
               href={pdf} download
               target="_blank"
               rel="noreferrer"
@@ -93,7 +93,7 @@ const Home = ({ scrollRef }) => {
               <Button
                 text={
                   <span className={styles.resumeBtn}>
-                    <span style={{fontSize:"23px"}}>RESUME</span> 
+                    <span style={{ fontSize: "23px" }}>RESUME</span>
                   </span>
                 }
                 handleButton={handleButton}
@@ -106,7 +106,7 @@ const Home = ({ scrollRef }) => {
           // style={{
           //   // transform: `translateX(${offset * 2.5}px)`,
           //   // opacity: `${offset > 300 ? "0" : offset > 160 ? ".5" : "1"}`,
-           
+
           // }}
           className={styles.profileImage}
         >
@@ -122,22 +122,22 @@ const Home = ({ scrollRef }) => {
         style={{
           // background: `${newTheme.highlightBackground}`,
         }}
-        // className={styles.experience}
+      // className={styles.experience}
       >
         <About />
       </div>
       <div>
-        <GitHub/>
+        <GitHub />
       </div>
       <div id="techStacks" className={styles.techStacks}>
         <TechStacks />
       </div>
 
       {/* project section from here => */}
-      <div id="projects" 
-      className={styles.projects}
+      <div id="projects"
+        className={styles.projects}
       >
-        <h1 style={{ color: `${newTheme.title}`,}} className={styles.heading}>
+        <h1 style={{ color: `${newTheme.title}`, }} className={styles.heading}>
           Projects
         </h1>
         <div className={styles.borderBottom} />
