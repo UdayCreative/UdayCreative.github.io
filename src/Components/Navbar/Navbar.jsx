@@ -50,7 +50,7 @@ const Navbar = () => {
 					<a href='#techStacks'>SKILLS</a>
 					<a href='#projects'>PROJECTS</a>
 					<a href='#contact'>CONTACT</a>
-					<a href='https://onedrive.live.com/?authkey=%21AFB%5FW32RzrlarpM&cid=8AD16FDD74D51843&id=8AD16FDD74D51843%21139&parId=8AD16FDD74D51843%21138&o=OneUp'>
+					<a href='https://drive.google.com/file/d/1D2FLlXORuvDI1cP3PQK-GknbUG93OFfg/view?usp=sharing'>
 						RESUME
 					</a>
 				</div>
